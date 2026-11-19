@@ -8,15 +8,15 @@
 
 :root {
   /* ---- neutrals ------------------------------------------------------- */
-  --paper: #f3f2f2;
-  --ink: #201e1d;
-  --surface: #eceae4;
+  --paper: #ffffff;
+  --ink: #0a0a0a;
+  --surface: #eef4fa;
 
   /* ---- 2) ACCENT ------------------------------------------------------
      Ships as plain ink: no color, no shared brand. Pick one (light + dark
      values; the dark one needs to be lighter so it stays readable).        */
-  --accent-light: #201e1d;
-  --accent-dark: #f3f2f2;
+  --accent-light: #0065bd;   /* TUM-style blue */
+  --accent-dark: #7db3e8;
   /* --accent-light: #2545d3;  --accent-dark: #8aa2ff;   cobalt  */
   /* --accent-light: #1e6f50;  --accent-dark: #6fd1a8;   forest  */
   /* --accent-light: #b4552d;  --accent-dark: #f0a07c;   rust    */
