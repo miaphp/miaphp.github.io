@@ -322,3 +322,27 @@ img { max-width: 100%; display: block; }
   .cols3 { grid-template-columns: 1fr; }
   body { font-size: 16px; }
 }
+
+/* ---- Customisations for this site ------------------------------------ */
+
+/* All headings in TUM blue (--accent, set in tokens.css) */
+h1, h2, h3, .year { color: var(--accent); }
+
+/* Paragraphs justified (labels, dates and the tagline stay centred) */
+main p:not(.when):not(.kicker):not(.more) { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+#contact p.prose { text-align: center; }
+.statement { hyphens: manual; -webkit-hyphens: manual; }
+
+/* Bullet lists in Work experience and Projects */
+.entry ul.bullets {
+  list-style: disc;
+  margin: 12px auto 0;
+  padding-left: 1.25em;
+  max-width: 54ch;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.entry ul.bullets li { margin: 0 0 0.6em; }
+.entry ul.bullets li::marker { color: var(--accent); }
+h1 a, h2 a, h3 a { color: inherit; }
